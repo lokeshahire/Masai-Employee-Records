@@ -1,0 +1,90 @@
+/* Fill CSS here */
+div {
+  display: flex;
+  justify-content: space-around;
+}
+form {
+  /* margin: 0 auto; */
+  margin-top: 15px;
+  width: 30%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  margin-left: 20px;
+}
+label {
+  font-size: 20px;
+}
+table {
+  width: 60%;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+table td,
+table th {
+  padding: 8px;
+  text-align: center;
+  font-family: sans-serif;
+  /* border: 1px solid red; */
+}
+table tr:nth-child(even) {
+  background-color: rgb(168, 187, 239);
+}
+table tr:nth-child(even):hover {
+  background-color: #c9cfd6;
+}
+table tr:nth-child(odd):hover {
+  background-color: #e3e8ed;
+}
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #2b619e;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+  border: 1px solid rgb(190, 179, 179);
+}
+
+input[type="submit"] {
+  background-color: #2b619e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+input[type="submit"]:hover {
+  background-color: #5b8cc3;
+}
+h1 {
+  /* font-weight: bolder; */
+  text-align: center;
+  font-size: 45px;
+  color: #2b619e;
+  text-decoration: underline;
+  text-transform: uppercase;
+  /* //font-family: "Gill Sans", sans-serif; */
+  font-family: "Lucida Console", Courier, monospace;
+}
+.redbtn {
+  cursor: pointer;
+}
