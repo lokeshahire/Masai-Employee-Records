@@ -5,3 +5,6 @@ Masai Employee Records This is an Individual Project having different facility l
 I use here HTML, CSS , LocalStorage, DOM concepts
 
 Live Link :https://lokesh-u2c3-masai-employee-records.netlify.app/
+
+
+<img src="https://miro.medium.com/max/875/1*m-0B4yRN7r6HaUTBCyetjg.png"/>
